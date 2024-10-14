@@ -1,7 +1,11 @@
-interface IHomeProps {}
+import Layout from "@/components/layout";
 
-function Home(props: IHomeProps): JSX.Element {
-  return <div>Home</div>;
+function Home() {
+  return (
+    <Layout>
+      <div>Home</div>
+    </Layout>
+  );
 }
 
 export default Home;

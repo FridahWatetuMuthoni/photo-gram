@@ -1,7 +1,11 @@
-interface IPhotosProps {}
+import Layout from "@/components/layout";
 
-function Photos(props: IPhotosProps): JSX.Element {
-  return <div>Photos</div>;
+function Photos() {
+  return (
+    <Layout>
+      <div>Photos</div>
+    </Layout>
+  );
 }
 
 export default Photos;
